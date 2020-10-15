@@ -7,7 +7,7 @@
 }
 
 div.MenuSuspenso table{
-    border: 1px solid;
+    border-bottom: 1px solid;
 }
 
 div.MenuSuspenso table tr td.espaco{
@@ -23,4 +23,98 @@ a{
 a:hover{
     font-weight: bolder;
     text-decoration: underline;
+}
+
+h2, h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: 150%;
+    font-weight: bolder;
+    color: #545454;
+}
+
+h3{
+    font-size: 120%;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: red;
+}
+
+div.ofertas{
+    overflow: hidden;
+    width: 100%;
+}
+
+div.Carro, div.Carro2, div.Carro3, div.Carro4{
+    width: 24%;
+}
+
+div.InfoCarro{
+    width: 100%;
+    text-align: justify;
+}
+
+div.Carro{
+    float: left;
+    margin-left: 5px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+p.NomeCarro{
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+}
+
+div.InfoCarro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.Carro2{
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+}
+
+div.Carro3{
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+}
+
+div.Carro4{
+    float: left;
+    text-align: center;
+}
+
+div.InfoCarro button{
+    margin: 0% 0% 0% 35%;
+    outline: none;
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+div.InfoCarro button:hover{
+    color: white;
+    background-color: black;
+}
+
+footer{
+    border: 1px solid;
+    height: 50px;
+}
+
+footer p{
+    margin-top: 1%;
+    text-align: center;
+}
+
+footer p:hover{
+    color: #545454;
 }
