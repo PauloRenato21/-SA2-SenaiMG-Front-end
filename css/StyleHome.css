@@ -6,6 +6,7 @@
     margin: 0px;
 }
 
+    /*Estilo Menu Superior*/
 div.MenuSuspenso table{
     border-bottom: 1px solid;
 }
@@ -15,15 +16,23 @@ div.MenuSuspenso table tr td.espaco{
     text-align: center;
 }
 
-a{
-    text-decoration: none;
+div.MenuSuspenso table tr td a, div.MenuSuspenso table tr td p{
     color: black;
+    font-size: 110%;
+    text-decoration: none;
 }
 
-a:hover{
+
+div.MenuSuspenso table tr td p{
     font-weight: bolder;
-    text-decoration: underline;
 }
+
+div.MenuSuspenso table tr td a:hover{
+    font-weight: bolder;
+    text-decoration: underline;     
+}
+    /*=====================*/
+
 
 h2, h3{
     text-align: center;
@@ -106,15 +115,12 @@ div.InfoCarro button:hover{
 }
 
 footer{
-    border: 1px solid;
+    border-top: 1px solid black;
     height: 50px;
+    color: #545454;
 }
 
 footer p{
     margin-top: 1%;
     text-align: center;
-}
-
-footer p:hover{
-    color: #545454;
 }

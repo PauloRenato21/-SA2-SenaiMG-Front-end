@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+    /*Reset config padrão browser*/
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+    /*==========================*/
+
+
+    /*Estilo Menu Superior*/
+div.MenuSuspenso table{
+    border-bottom: 1px solid;
+}
+
+div.MenuSuspenso table tr td.espaco{
+    width: 25%;
+    text-align: center;
+}
+
+div.MenuSuspenso table tr td a, p{
+    color: black;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+div.MenuSuspenso table tr td p{
+    font-weight: bolder;
+}
+
+div.MenuSuspenso table tr td a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+    /*=====================*/
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+div img.Porsche{
+    margin-left: 50px;
+}
+
+div img.CarPecas{
+    margin-top: 10px;
+}
+
+footer{
+    border-top: 1px solid black;
+    height: 50px;
+}
+
+footer p{
+    margin-top: 1%;
+    text-align: center;
+    color: #545454;
+}

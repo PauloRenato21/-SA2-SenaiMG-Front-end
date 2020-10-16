@@ -1,11 +1,15 @@
 @charset "utf-8";
 
+    /*Reset config padrão browser*/
 *{
     border: 0px;
     padding: 0px;
     margin: 0px;
 }
+    /*==========================*/
 
+
+    /*Estilo Menu Superior*/
 div.MenuSuspenso table{
     border-bottom: 1px solid;
 }
@@ -15,11 +19,104 @@ div.MenuSuspenso table tr td.espaco{
     text-align: center;
 }
 
-a{
-    text-decoration: none;
+div.MenuSuspenso table tr td a, p{
     color: black;
+    font-size: 110%;
+    text-decoration: none;
 }
 
-a:hover{
+div.MenuSuspenso table tr td p{
+    font-weight: bolder;
+}
+
+div.MenuSuspenso table tr td a:hover{
     font-weight: bolder;
     text-decoration: underline;
+}
+    /*=====================*/
+
+
+img{
+    border-radius: 5px;
+}
+
+div.Carro1, div.Carro2, div.Carro3, div.Carro4{
+    overflow: hidden;
+    padding-bottom: 2%;
+}
+
+div.Carro1, div.Carro2, div.Carro3{
+    border-bottom: 1px solid;
+}
+div.ImagemCarro1, div.ImagemCarro3{
+    float: left;
+    margin: 0% 0% 0% 10%;
+}
+
+div.ImagemCarro2, div.ImagemCarro4{
+    float: right;
+    margin: 0% 10% 0% 0%;
+}
+
+div.Informacoes{
+    float: right;
+    margin: 0% 30% 0% 0%;
+} 
+
+div.Informacoes2{
+    float: left;
+    margin: 0% 0% 0% 20%;
+}
+
+div.Informacoes h3{
+    font-size: 160%;
+    text-align: center;
+}
+
+div.Informacoes ul li{
+    font-size: 110%;
+}
+
+div.Informacoes2 h3{
+    font-size: 160%;
+    text-align: center;
+}
+
+div.Informacoes2 ul li{
+    font-size: 110%;
+}
+
+div.Informacoes button{
+    border: 1px solid;
+    border-radius: 2%;
+    padding: 1%;
+    margin-left: 20%;
+    font-size: 110%;
+    outline: none;
+}
+
+div.Informacoes2 button{
+    border: 1px solid;
+    border-radius: 2%;
+    padding: 1%;
+    margin-left: 33%;
+    font-size: 110%;
+    outline: none;
+}
+
+div.Informacoes button:hover, div.Informacoes2 button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    border-top: 1px solid black;
+    height: 50px;
+}
+
+footer p{
+    margin-top: 1%;
+    text-align: center;
+    color: #545454;
+}
