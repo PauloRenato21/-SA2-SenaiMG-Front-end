@@ -41,6 +41,22 @@ h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+    /*Out box*/
+fieldset, legend{
+    border: 1px solid black;
+}
+
+legend{
+    padding: 5px;
+}
+
+fieldset{
+    width: 40%;
+    padding: 10px;
+}
+    /*========*/
+
+    /*Formulario*/
 div.Formulario{
     width: auto;
     margin-left: 35%;
@@ -73,7 +89,9 @@ input.Confirmar:hover, input.Apagar:hover{
     background-color: black;
     color: white;
 }
+    /*===========*/
 
+    /*Rodapé*/
 footer{
     border-top: 1px solid black;
     height: 50px;
@@ -84,3 +102,5 @@ footer p{
     text-align: center;
     color: #545454;
 }
+    /*======*/
+
